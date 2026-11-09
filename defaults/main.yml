@@ -1,0 +1,4 @@
+---
+php_mysql_packages:
+  - php-mysql
+  - mysql-client

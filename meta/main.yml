@@ -1,0 +1,21 @@
+---
+galaxy_info:
+  role_name: php_mysql
+  namespace: avi1505
+  author: avi1505
+  description: Installeert PHP-MySQL en de MySQL-client op Ubuntu.
+  license: MIT
+  min_ansible_version: "2.19"
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - noble
+
+  galaxy_tags:
+    - php
+    - mysql
+    - ubuntu
+
+dependencies:
+  - role: avi1505.php
